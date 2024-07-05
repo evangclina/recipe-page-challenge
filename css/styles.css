@@ -1,0 +1,147 @@
+@font-face {
+  font-family: "Outfit";
+  src: url("../assets/fonts/outfit/Outfit-VariableFont_wght.ttf");
+  font-family: "Young-Serif";
+  src: url("../assets/fonts/young-serif/YoungSerif-Regular.ttf");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(30, 54%, 90%);
+}
+body .container {
+  background-color: hsl(0, 0%, 100%);
+  width: 100%;
+}
+body .container img {
+  width: 100%;
+}
+body .container h1 {
+  font-family: "Young-Serif", serif;
+  font-weight: 400;
+  margin-bottom: 10px;
+  color: #302D2C;
+  padding: 30px 30px 0 30px;
+}
+body .container p {
+  font-family: "Outfit", sans-serif;
+  font-size: 16px;
+  color: hsl(30, 10%, 34%);
+  margin-bottom: 30px;
+  line-height: 23px;
+  padding: 0 30px;
+}
+body .container .box {
+  background-color: hsl(330, 100%, 98%);
+  font-family: "Outfit", sans-serif;
+  border-radius: 10px;
+  margin: 0 30px;
+  padding: 20px 30px 10px 30px;
+  margin-bottom: 30px;
+}
+body .container .box h3 {
+  color: hsl(332, 51%, 32%);
+  margin-bottom: 20px;
+}
+body .container .box ul {
+  margin-left: 22px;
+  color: hsl(30, 10%, 34%);
+}
+body .container .box ul li {
+  padding-bottom: 20px;
+  padding-left: 1em;
+}
+body .container h2 {
+  font-family: "Young-Serif", sans-serif;
+  color: hsl(14, 45%, 36%);
+  font-size: 28px;
+  margin: 0 30px 15px 30px;
+}
+body .container .ingredients {
+  font-family: "Outfit", sans-serif;
+  color: hsl(30, 10%, 34%);
+  font-size: 16px;
+  padding-left: 20px;
+  margin: 0 30px 30px 30px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #E4DED8;
+}
+body .container .ingredients li {
+  padding-left: 1em;
+  margin-bottom: 10px;
+  line-height: 22px;
+}
+body .container .ingredients li::marker {
+  color: #854632;
+}
+body .container .instructions {
+  font-family: "Outfit", sans-serif;
+  color: hsl(30, 10%, 34%);
+  font-size: 16px;
+  padding-left: 20px;
+  margin: 0 30px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #E4DED8;
+}
+body .container .instructions li {
+  margin-bottom: 10px;
+  padding-left: 1em;
+  line-height: 22px;
+}
+body .container .instructions li::marker {
+  color: #854632;
+  font-weight: bold;
+}
+body .container .nutrition {
+  margin-top: 30px;
+}
+body .container table {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: hsl(30, 10%, 34%);
+  font-family: "Outfit", sans-serif;
+  border-collapse: collapse;
+}
+body .container table .content {
+  font-weight: bold;
+  color: #854632;
+  padding-left: 30px;
+  padding-right: 70px;
+}
+body .container table .border {
+  border-bottom: 1px solid #E4DED8;
+}
+body .container table tr td {
+  padding: 15px 30px;
+}
+
+@media only screen and (min-width: 992px) {
+  body img {
+    display: block;
+    width: 50%;
+    margin: auto;
+    border-radius: 15px;
+  }
+  body .container {
+    padding: 30px;
+    border-radius: 15px;
+    max-width: 58%;
+    margin: 80px auto;
+  }
+  body .container table {
+    width: 100%;
+  }
+  body .container table .content {
+    padding: 0 200px;
+  }
+  body .container table tr td {
+    padding: 15px;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
